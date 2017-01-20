@@ -8,7 +8,7 @@
     <groupId>org.jboss.integration-platform</groupId>
     <artifactId>jboss-integration-platform-parent</artifactId>
     <!-- Keep in sync with the parent version of ../pom.xml (dashbuilder-parent) -->
-    <version>7.0.0.CR4</version>
+    <version>7.0.0.CR6</version>
     <relativePath/>
   </parent>
 
@@ -146,19 +146,6 @@
         <classifier>sources</classifier>
       </dependency>
 
-      <dependency>
-        <groupId>org.dashbuilder</groupId>
-        <artifactId>dashbuilder-hibernate-validator</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.dashbuilder</groupId>
-        <artifactId>dashbuilder-hibernate-validator</artifactId>
-        <version>${project.version}</version>
-        <classifier>sources</classifier>
-      </dependency>
-      
       <dependency>
         <groupId>org.dashbuilder</groupId>
         <artifactId>dashbuilder-validations</artifactId>
